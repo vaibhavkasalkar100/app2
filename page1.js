@@ -14,6 +14,7 @@ function subtract(p1, p2) {
 }
 
 subtract(10, 4)
+
 function add(p1, p2) {
   console.log(` add ${p1} + ${p2} = ${p1 + p2}`)
 }
@@ -36,4 +37,9 @@ function cubes(p1) {
   console.log(`   cube $ {p1}  = ${p1 ** 3}`)
 }
 
-cube(2)
+cubes(2)
+
+function subtract(p1, p2) {
+  console.log(`${p1} + ${p2} = ${p1 - p2}`)
+}
+subtract(2, 2)
